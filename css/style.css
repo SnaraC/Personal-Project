@@ -14,11 +14,6 @@ h3 a {
 	text-decoration: none;
 }
 
-span {
-	color: #d6c9af;
-	background-color: #7c5f5f;
-}
-
 nav {
 	display: flex;
 	align-items: center;
@@ -26,14 +21,19 @@ nav {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 4%;
-	background-color: #7c5f5f;
+	background-color:  #adaaaa;
+}
+
+nav h3 a
+{
+	background-color: #adaaaa;
+	color: black;
 }
 
 nav ul li {
 	list-style-type: none;
 	display: inline-block;
-	padding: 10px 15px;
-	background-color: #7c5f5f;
+	background-color:  #adaaaa;
 }
 
 nav ul li a {
@@ -43,12 +43,12 @@ nav ul li a {
 	font-size: 25px;
 	font-weight: bold;
 	color: black;
-	background-color: #7c5f5f;
+	background-color:  #adaaaa;
 }
 
 nav ul li a:hover {
 	text-align: center;
-	background-color: rgb(221, 192, 192);
+	background-color: rgb(141, 141, 141);
 	transition: 1s;
 	padding: 15px;
 	border-radius: 50%;
@@ -70,8 +70,8 @@ nav ul li a:hover {
 }
 
 .profilepic {
-	border-radius: 50%;
-	width: 400px;
+	border-radius: 100px;
+	width: 300px;
 	max-height: 100%;
 }
 
@@ -80,7 +80,7 @@ nav ul li a:hover {
 }
 
 .aboutmep {
-	margin-top: 30px;
+	margin-top: 10px;
 	font-size: 18px;
 	font-family: 'Roboto Mono', monospace;
 }
@@ -142,5 +142,9 @@ nav ul li a:hover {
 
 .projectin1text {
 	margin-left: 20px;
+	font-size: 18px;
+}
+.projectin1text p {
+	margin-bottom: 5px;
 	font-size: 18px;
 }
